@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# source: https://github.com/rimaulana/eks-irsa-helper
+
 function print_help {
     echo "usage: $0 [ensure|delete] [options]"
     echo "Associate a service account with an IAM policy documents or IAM managed policy arns"
